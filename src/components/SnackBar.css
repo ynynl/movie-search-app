@@ -1,0 +1,27 @@
+.snack-wrap {
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    left: 10px;
+    padding: 0px;
+}
+
+.snackbar {
+    background: black;
+    padding: 10px 40px 10px 20px;
+    color: white;
+    position: relative;
+    left: 0px;
+    z-index: 10;
+    transition: bottom 0.1s, opacity 0.1s;;
+}
+
+.snackbar__show {
+    bottom: 10px;
+    opacity: 1;
+}
+
+.snackbar__hide {
+    opacity: 0.6;
+    bottom: -40px;
+}
