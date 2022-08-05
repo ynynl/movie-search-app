@@ -1,7 +1,7 @@
 import axios from "axios"
 import { Movie, MovieDetail } from "./MovieInterface";
 
-const baseUri = `http://www.omdbapi.com`
+const baseUri = `https://www.omdbapi.com`
 const apikey = '6c587c25'
 
 interface OMDBSResponse {
