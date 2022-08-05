@@ -49,7 +49,6 @@ function App() {
         msg = (error)
       }
       setMsg(msg)
-      console.error(error);
     }
   };
 
@@ -69,7 +68,6 @@ function App() {
           msg = (error)
         }
         setMsg(msg)
-        console.error(error);
       }
     }
   }
@@ -98,7 +96,6 @@ function App() {
           msg = (error)
         }
         setMsg(msg)
-        console.error(error);
       }
     }
   }
