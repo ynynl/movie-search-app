@@ -147,13 +147,22 @@ function App() {
         </div>
 
         <div className="results">
-          {movies.map((movie, i) =>
+          {/* {movies.map((movie, i) =>
             <div key={movie.imdbID}>
               <Card movie={movie}
                 selectedIdx={i}
                 selectMovie={selectMovie} />
             </div>
-          )}
+          )} */}
+          <table>
+            {movies.map((movie, i) =>
+              <tr>
+                <th>{movie.Title}</th>
+                <th>{movie.Type}</th>
+                <th>{movie.Year}</th>
+              </tr>
+            )}
+          </table>
         </div>
 
         {movies.length > 9 && <button className="btn"
