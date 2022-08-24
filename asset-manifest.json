@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-assignment/static/css/main.26a64148.css",
-    "main.js": "/react-assignment/static/js/main.89c1f9e3.js",
-    "index.html": "/react-assignment/index.html",
-    "main.26a64148.css.map": "/react-assignment/static/css/main.26a64148.css.map",
-    "main.89c1f9e3.js.map": "/react-assignment/static/js/main.89c1f9e3.js.map"
+    "main.css": "/movie-search-app/static/css/main.26a64148.css",
+    "main.js": "/movie-search-app/static/js/main.89c1f9e3.js",
+    "index.html": "/movie-search-app/index.html",
+    "main.26a64148.css.map": "/movie-search-app/static/css/main.26a64148.css.map",
+    "main.89c1f9e3.js.map": "/movie-search-app/static/js/main.89c1f9e3.js.map"
   },
   "entrypoints": [
     "static/css/main.26a64148.css",
