@@ -48,5 +48,5 @@
   "devDependencies": {
     "@types/styled-components": "^5.1.25"
   },
-  "homepage": "https://ynynl.github.io/react-assignment/"
+  "homepage": "https://ynynl.github.io/movie-search-app/"
 }
